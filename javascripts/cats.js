@@ -1,1 +1,6 @@
-console.log('Cats.js linked')
+var CatStore = ((oldCatStore) => {
+
+	
+
+	return oldCatStore;
+})(CatStore || {});
