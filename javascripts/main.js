@@ -1,2 +1,2 @@
-console.log('main.js linked')
+CatStore.catXHR();
 
