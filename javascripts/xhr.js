@@ -11,7 +11,7 @@ var CatStore = ((oldCatStore) => {
 		CatStore.setAllOwners(ownerData);
 		let catArray = CatStore.getCats();
 		let ownerArray = CatStore.getOwners();
-		CatStore.combineArray(catArray, ownerArray);
+		CatStore.combineArrays(catArray, ownerArray);
 	};
 
 	oldCatStore.shitBrokeAf = () => {
